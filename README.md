@@ -49,3 +49,17 @@ To sum up everything explained above:
 4) Connect all the hardware following the schema presented above
 
 5) Finally, test the system. I suggest to turn on one node each time and check the debug messages on a serial terminal (for instance, Putty or Teraterm). Every time you turn on or off a node, you should see the other nodes trying to associate or disassociate from those nodes. 
+
+## GUI
+
+For reading the debug messages in a more fashionable manner, a Graphical User Interface(GUI) in Java was developed. For running it, clone the repo and simply call:
+```
+make
+``` 
+
+For cleaning:
+```
+make clean
+``` 
+
+![Screenshot](images/GUI.png)
