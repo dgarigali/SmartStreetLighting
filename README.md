@@ -18,5 +18,9 @@ The system was tested with three nodes. For the nodes on the edges, only one ult
 
 **Mbed:** [microcontroller](https://os.mbed.com/platforms/mbed-LPC1768/) chosen for interfacing all the components above
 
+## Connections
+
+![Screenshot](images/hardware.png)
+
 
 
