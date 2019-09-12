@@ -862,6 +862,7 @@ int main() {
     taskError = xTaskCreate(neighbourTask, "Neighbour Discovery", 2*configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY+4, &mainTaskHandler); 
     taskError = xTaskCreate(retransmissionTask, "Retransmission task", 2*configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY+2, &mainTaskHandler); 
     
+	//Check there is enough memories for tasks
     if(taskError == errCOULD_NOT_ALLOCATE_REQUIRED_MEMORY){
         pc.printf("7 Failed to start tasks\r\n");
         return -1;
